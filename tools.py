@@ -15,7 +15,8 @@ if not _api_key:
 
 tavily = TavilyClient(api_key=_api_key)
 
-MAX_SCRAPE_CHARS = 3000  # Groq free tier ke TPM limit ke liye chhota rakha hai
+MAX_SCRAPE_CHARS = 2000  # Groq free tier ke TPM limit ke liye chhota rakha hai
+
 
 
 @tool

@@ -12,6 +12,7 @@ llm = ChatGroq(
     model=os.getenv("GROQ_MODEL", "openai/gpt-oss-120b"),
     temperature=0,
     max_retries=3,
+    reasoning_effort="low",
 )
 
 
